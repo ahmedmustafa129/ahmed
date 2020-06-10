@@ -1,0 +1,84 @@
+.img{
+    width: 2pxpx;
+}
+.navbar{
+    background-color: #D32F2F !important;
+}
+.fa-user,.fa-shopping-cart{
+    font-size: 42px;
+}
+.nav-link{
+    color: white !important;
+}
+.navbar-nav{
+    padding-right: 30px;
+}
+h3{
+    color: #D32F2F;
+}
+.fa-headphones,.fa-truck,.fa-heart{
+    font-size: 50px;
+    margin-right:10px;
+    color: #D32F2F;
+}
+.card1,.card2,.card3{
+    display: flex;
+    width: 300px;
+    height: 100px;
+    box-shadow: 2px 4px 5px grey;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.maincard{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.newarrival{
+    margin-top: 50px;
+    color:#D32F2F ;
+    text-shadow: 2px 5px 7px black
+}
+.text1{
+    margin-top: 50px;
+    text-align: center;
+    color:#D32F2F  ;
+    text-shadow: 2px 5px 7px black
+}
+.card{
+    width: 200px !important;
+}
+.card-text{
+    font-weight: bold !important;
+}
+.one{
+    margin-top:100px;
+}
+.footer{
+    background-color:#D32F2F ;
+    height: 70px;
+}
+.footer,.two{
+    color: blanchedalmond;
+    text-align: center;
+    padding-top: 10px;
+}
+.row{
+    margin-left: 100px;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width:600px){
+    .card1,.card2,.card3{
+        width:100% ;
+    }
+}
